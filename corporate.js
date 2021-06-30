@@ -1,9 +1,4 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-    var userAgent = window.navigator.userAgent.toLowerCase();
-    if (userAgent.indexOf('msie') != -1 ||
-        userAgent.indexOf('trident') != -1) {
-        window.location.replace("https://aruruaruruaruru.github.io/corporate/ie/index.html");
-    }
     setHeaderFooter();
     //headerとfooter表示
     function setHeaderFooter() {
